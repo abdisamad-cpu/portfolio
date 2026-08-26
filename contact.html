@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- ===========================
+         HEADER
+    ============================ -->
+
+<header class="header">
+    <div class="container">
+
+        <!-- Logo -->
+        <div class="logo">
+            <img src="images/awed.png" alt="mon portfolio">
+        </div>
+<!-- Hamburger mobile -->
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+        <!-- Navigation -->
+        <nav class="navbar">
+            
+
+            <ul class="nav-links">
+
+                <li><a href="index.html">Accueil</a></li>
+
+                <li><a href="skills.html">Compétences</a></li>
+
+                <li><a href="projects.html">Projets</a></li>
+
+                <li><a href="about.html">À propos</a></li>
+
+                <li><a href="contact.html" class="active">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+        <!-- Right Side -->
+        <div class="header-right">
+
+            <!-- Language -->
+            <div class="language-switcher">
+                <button id="lang-fr">FR</button>
+            </div>
+
+            <!-- Dark Mode -->
+            <button id="theme-toggle" aria-label="Toggle dark mode">
+                🌙
+            </button>
+
+        </div>
+
+    </div>
+</header>
+<!-- ===========================
+         contact section
+    ============================ -->
+<main>  
+   <section id="contact">
+    <div class="contact-container">
+      <h1>Contacter moi</h1>
+      <p class="contact-subtitle">
+N'hésitez pas à me contacter pour toute question, suggestion ou demande d'information.
+</p>
+      <div class="contact-grid">
+        <!-- Contact Info -->
+
+        <div class="contact-info">
+          <h2>Coordonnées</h2>
+
+          <div class="info-box">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h3> Téléphone </h3>
+              <p>+32 465341319</p>
+            </div>
+          </div>
+
+          <div class="info-box">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p>abdisamad@awed.be</p>
+            </div>
+          </div>
+
+          <div class="info-box">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <h3>WhatsApp</h3>
+              <a
+                href="https://wa.me/32465341319"
+                target="_blank"
+                class="whatsapp-btn"
+              >
+                Discuter sur whatsapp
+              </a>
+            </div>
+          </div>
+
+          <div class="social-icons">
+            <a href="https://awed.be" target="_blank" aria-label="Awed website">
+    <i class="fas fa-globe"></i>
+</a>
+            <a href="https://www.facebook.com/share/1PvXUVUX9C/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/souldaan143?igsh=MXZibmM4c2YwbnEwaA==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/Suldanusaladin" target="_blank"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://www.tiktok.com/@lerio365?_r=1&_t=ZG-98L1KH7eMTp" target="_blank"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+  <!-- Contact Form -->
+        <div class="contact-form">
+          <h2>Envoyez un message</h2>
+          <form id="contactForm">
+            <input type="text" id="name" placeholder="vôtre nom" />
+            <input type="email" id="email" placeholder="vôtre email" />
+            <input type="text" id="subject" placeholder="sujet" />
+            <textarea id="message" rows="6" placeholder="vôtre message"></textarea>
+            <button type="submit">Envoyer</button>
+            <p id="formMessage"></p>
+          </form>
+        </div>
+      </div>
+      <!-- Map Section -->
+<div class="map-section">
+  <h2>Où me trouver</h2>
+ <iframe
+    src="https://www.google.com/maps?q=Avenue+Fonsny+3,+1060+Saint-Gilles&output=embed"
+    width="100%"
+    height="350"
+    style="border:0;"
+    loading="lazy">
+</iframe>
+</div>
+    </div>
+  </section>
+    
+
+    </main>
+   
+
+    <!-- ===========================
+         FOOTER
+    ============================ -->
+
+<footer class="footer">
+
+    <!-- Social Icons -->
+    <ul class="wrapper">
+
+        <li class="icon linkedin">
+            <span class="tooltip">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/abdisamad-awad-38543b284" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+
+        <li class="icon github">
+            <span class="tooltip">GitHub</span>
+            <a href="https://github.com/abdisamad-cpu" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+
+    </ul>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&copy; 2026 Abdisamad Awad. tous droits réservés.</p>
+    </div>
+
+</footer>
+    <!--scrolupp buttons-->
+    <button id="scrollUp" title="Scroll to Top">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+
+<button id="scrollDown" title="Scroll to Bottom">
+    <i class="fa-solid fa-chevron-down"></i>
+</button>
+<script src="java/script.js"></script>
+</body>
+</html>
